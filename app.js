@@ -20,6 +20,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.send(`
     <h1>🚀 My DevOps Final Project Updated Now by Dave & Astr0!!!</h1>
+	<p>The app was deployed with a lot of work done!</p>
     <p>This app was deployed automatically!</p>
     <p>Current time: ${new Date().toLocaleString()}</p>
     <p>Total requests: ${requestCount}</p>

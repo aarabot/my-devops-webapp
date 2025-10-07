@@ -22,11 +22,7 @@ jobs:
     
     defaults:
       run:
-<<<<<<< HEAD
-        working-directory: .  
-=======
-        working-directory: . 
->>>>>>> 644f7aa708e5e9c78ff3cf786f229c745b4267b9
+        working-directory: .
     
     steps:
     - name: Checkout code
@@ -58,11 +54,7 @@ jobs:
     
     defaults:
       run:
-<<<<<<< HEAD
-        working-directory: . 
-=======
         working-directory: .
->>>>>>> 644f7aa708e5e9c78ff3cf786f229c745b4267b9
     
     steps:
     - name: Checkout code
